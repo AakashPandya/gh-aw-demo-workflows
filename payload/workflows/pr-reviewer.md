@@ -15,6 +15,8 @@ permissions:
   pull-requests: read
 engine: codex
 strict: true
+features:
+  group-concurrency-queue: false
 timeout-minutes: 15
 concurrency:
   group: "${{ github.workflow }}-${{ github.event.pull_request.number || inputs.pr_number }}"
