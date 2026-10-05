@@ -1,0 +1,8 @@
+manifest-version: "1"
+min-version: v0.89.21
+name: Engineering PR Review
+description: A reusable Codex reviewer for TypeScript and Node.js pull requests.
+includes:
+  - source: payload/workflows/pr-reviewer.md
+    destination: .github/workflows/pr-reviewer.md
+    kind: agentic-workflow

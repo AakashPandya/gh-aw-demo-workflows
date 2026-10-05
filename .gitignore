@@ -1,0 +1,2 @@
+payload/workflows/*.lock.yml
+.github/aw/logs/
